@@ -1,0 +1,39 @@
+#introduction-container {
+    align-items: center;
+}
+
+#introduction-text {
+    margin-right: 15%;
+}
+
+#me-jpg {
+    width: 25%;
+    border-radius: 50%;
+    box-shadow:grey 3px 3px 5px;
+}
+
+@media (max-width: 62em) {
+    #me-jpg {
+        width: 40%;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 43em) {
+    #introduction-container {
+        flex-direction: column-reverse;
+    }
+    
+    #introduction-inner-container {
+        width: 100%;
+    }
+
+    #introduction-text {
+        margin-right: 0;
+    }
+
+    #me-jpg {
+        width: 40%;
+        margin-left: -60%
+    }
+}

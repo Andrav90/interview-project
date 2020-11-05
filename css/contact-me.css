@@ -1,0 +1,90 @@
+#contact-form {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 8%;
+    box-shadow: grey 3px 3px 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#form-title {
+    margin-bottom: 8%;
+    align-self: center;
+    font-weight: 700;
+}
+
+input, textarea {
+    border: none;
+    border-bottom: grey 1px solid;
+}
+
+input {
+    margin-bottom: 5%;
+}
+
+#submit-form-btn {
+    width: 30%;
+    align-self: center;
+}
+
+#msg-sent-container {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    background-color: lightblue;
+    transform: translate(-10%, 20%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#msg-sent-text {
+    margin-bottom: 3%;
+}
+
+#mail-icon {
+    width: 25%;
+    height: auto;
+}
+
+@media (max-width: 62em) {
+    #contact-form {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+    }
+
+    #submit-form-btn {
+        width: 60%;
+    }
+
+    #msg-sent-container {
+        width: 60%;
+    }
+    
+    #msg-sent-text {
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 43em) {  
+    #contact-form {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+    }
+
+    #submit-form-btn {
+        width: 60%;
+    }
+
+    #msg-sent-container {
+        width: 80%;
+    }
+    
+    #msg-sent-text {
+        margin-bottom: 5%;
+    }
+}

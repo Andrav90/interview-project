@@ -1,0 +1,139 @@
+#clients-container, #clients-title, #clients h1, #clients p {
+    text-align: center;
+}
+
+#clients-intro-text{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#clients-logos-container {
+    margin: 5% 0 5% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clients-logos {
+    width: auto;
+    height: 40px;
+}
+
+#insider {
+    height: 50px;
+}
+
+#wired {
+    height: 60px;
+}
+
+#clients-testimonials-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#client-photo {
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+    box-shadow:grey 3px 3px 5px;
+    align-self: center;
+}
+
+#clients-testimonials-inner-container {
+    margin-left: 8%;
+    text-align: justify;
+}
+
+#quote-left {
+    float: left;
+    margin-left: -5%;
+}
+
+#quote-right {
+    float: right;
+    margin-right: -5%;
+}
+
+#testimonial-text {
+    margin: 0;
+}
+
+.selectors-svgs {
+    width: 10%;
+    padding: 3px;
+}
+
+.selectors-svgs:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 62em) {
+    #clients-intro-text {
+        padding: 0;
+    }
+
+    #clients-logos-container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .clients-logos {
+        width: 90px;
+        height: 20px;
+    }
+
+    #news, #envato {
+        height: 25px;
+    }
+
+    #clients-testimonials-container {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #client-photo {
+        width: 50%;
+        height: 50%;
+    }
+
+    #clients-testimonials-inner-container {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 43em) {
+    #clients-intro-text {
+        padding: 0;
+    }
+
+    #clients-logos-container {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .clients-logos {
+        width: 90px;
+        height: 20px;
+    }
+
+    #news, #envato {
+        height: 25px;
+    }
+
+    #clients-testimonials-container {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #client-photo {
+        width: 50%;
+        height: 50%;
+    }
+
+    #clients-testimonials-inner-container {
+        margin-left: 0;
+    }
+}

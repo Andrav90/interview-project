@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A==" crossorigin="anonymous" />
+    <link type="text/css" rel="stylesheet" href="css/background.css">
+    <link type="text/css" rel="stylesheet" href="css/universal.css">
+    <link type="text/css" rel="stylesheet" href="css/navbar.css">
+    <link type="text/css" rel="stylesheet" href="css/introduction.css">
+    <link type="text/css" rel="stylesheet" href="css/about-me.css">
+    <link type="text/css" rel="stylesheet" href="css/skills.css">
+    <link type="text/css" rel="stylesheet" href="css/projects-portfolio.css">
+    <link type="text/css" rel="stylesheet" href="css/clients.css">
+    <link type="text/css" rel="stylesheet" href="css/contact-me.css">
+    <link type="text/css" rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <navbar id="desktop-navbar">
+        <div id="nav-info-links-container">
+            <img src="assets/images/navbar/logo.png" id="page-logo">        
+        </div>
+        <div id="nav-social-links-container"></div>
+    </navbar>
+
+    <navbar id="hamburger-navbar">
+        <div class="hamburger-container">
+            <div id="nav-info-links-container">
+                <img src="assets/images/navbar/logo.png" id="page-logo">        
+            </div>
+            <div id="hamburger-inner-container">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#about-me-container">About</a></li>
+                                <li><a href="#projects-portfolio-container">Portfolio</a></li>
+                                <li><a href="#contact-me-container">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </navbar>
+
+    <img id="introduction-rectangle" src="https://api-lunacy.icons8.com/api/assets/0b111700-87e9-4824-bd3a-8a75e47510c3/group_11_objects.png">
+    
+    <div id="introduction-container" class="apply-flex-row">
+        <div id="introduction-inner-container">
+            <h5>Hello</h5>
+            <h1 class="apply-bold">I'm Andra</h1>
+            <p id="introduction-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit consectetur rutrum. Mauris blandit urna sit amet est mattis posuere.</p>
+            <button id="hire-me-btn"><a href="#contact-me">Hire me</a></button>
+        </div>
+        <img src="assets/images/introduction/me.jpg" id="me-jpg" class="hvr-bob">       
+    </div>
+
+    <div id="about-me-container" class="apply-flex-row">
+        <img src="assets/images/about-me/about-me.jpg" id="about-me-img" class="hvr-bob">
+        <div id="about-me-inner-container">
+            <h5>A bit</h5>
+            <h1 class="apply-bold">About me</h1>
+            <div class="apply-flex-row" id="about-me-tabs-titles"></div>
+            <div id="about-me-tabs-text"></div>
+            <button id="dl-cv-btn"><a href="assets/Andra_Vraciu_CV.PDF">Download CV</a></button>
+        </div>
+    </div>
+
+    <img id="about-me-rectangle" src="https://api-lunacy.icons8.com/api/assets/b6ad025e-797c-4add-9d9d-44208d6cb929/group_5_objects.png"> 
+
+    <div id="skills-container">
+        <div class="apply-flex-column" id="skills-intro">
+            <h5>Skills</h5>
+            <h1 class="apply-bold">Expertise</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="apply-flex-row" id="skills-section"></div>
+        <img id="skills-dots" src="https://api-lunacy.icons8.com/api/assets/133a28d9-1a56-4449-b226-08df723b9bb1/group_28_objects.png">
+    </div>
+
+    <div id="projects-portfolio-container">
+        <div id="portfolio-header" class="apply-flex-column">
+            <h1 class="apply-bold">Selected Portfolio</h1>
+            <p id="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit consectetur rutrum.</p>
+            <div class="apply-flex-row" id="portfolio-tabs"></div>
+        </div>
+
+        <img id="portfolio-scribble-left" src="https://api-lunacy.icons8.com/api/assets/73d83c55-b4f6-4646-acd5-7830bc81c75c/Scribbles.png">
+        <img id="portfolio-scribble-right" src="https://api-lunacy.icons8.com/api/assets/f51138ec-87d3-4359-82d6-eba01a48d418/OrnamentDotteddarkblue.png.png">
+        
+        <div id="projects-previews"></div>
+    </div>
+
+    <div id="clients-container">
+        <h5 id="clients-title">Clients</h5>
+        <h1 class="apply-bold">Some notable clients</h1>
+        <p id="clients-intro-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit consectetur rutrum.</p>
+        <div id="clients-logos-container"></div>
+        <div class="apply-flex-row" id="clients-testimonials-container">
+            <img class="hvr-bob" id="client-photo">
+            <div id="clients-testimonials-inner-container">
+                <img src="assets/images/clients/clients-testimonials/quote-left.png" id="quote-left">
+                <br/>
+                <div id="clients-testimonials-text"></div>
+                <img src="assets/images/clients/clients-testimonials/quote-right.png" id="quote-right">
+                <br/>
+                <h6 id="client-name" class="apply-bold"></h6>
+                <h6 id="client-position"></h6>
+                <div id="selectors" class="apply-flex-row"></div>
+            </div>
+        </div>
+        <img id="clients-circle" src="https://api-lunacy.icons8.com/api/assets/40e5c727-77b3-4f48-9106-00808be76676/group_4_objects.png">
+    </div>
+
+    <div id="contact-me-container">
+        <form id="contact-form" class="apply-flex-column">
+            <h5 id="form-title">Feel free to contact me and say hello!</h5>
+            <input type="hidden" name="contact_number">
+            <input type="text" name="user_name" placeholder="Your name" required>
+            <input type="email" name="user_email" placeholder="E-mail address" required>
+            <textarea name="message" placeholder="Your message here..." required></textarea>
+            <button type="submit" id="submit-form-btn">Send message</button>
+            <div id="msg-sent-container" class="hidden hvr-ripple-out">
+                <img src="assets/icons/mail.svg" id="mail-icon" class="my-3">
+                <h5 id="msg-sent-text">Message successfully sent!</h5>
+            </div>
+        </form>
+
+        <img id="contact-me-rectangle" src="assets/images/background/contact-me-rectangle.png">
+    </div>
+
+    <div id="footer-container" class="apply-flex-column">
+        <div class="apply-flex-row" id="footer-info-links-cont"></div>
+        <div class="apply-flex-row" id="footer-social-links-cont"></div>
+        <p id="footer-rights">Design with love &copy; Tanahcon 2019. All rights reserved</p>
+    </div>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/aboutMe.js"></script>
+    <script src="js/skills.js"></script>
+    <script src="js/projectsPortfolio.js"></script>
+    <script src="js/clientsLogos.js"></script>
+    <script src="js/clientsTestimonials.js"></script>
+    <script src="js/contactMe.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

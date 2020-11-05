@@ -1,0 +1,65 @@
+#introduction-rectangle {
+    z-index: -1;
+    position: absolute;
+    float: right;
+    top: -45vh;
+    right: 0;
+}
+
+#about-me-rectangle {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    margin-top: -40%;
+    margin-left: -70px;
+}
+
+#skills-dots {
+    z-index: -1;
+    position: absolute;
+    right: 17%;
+    margin-top: -7% ;
+}
+
+#portfolio-scribble-left {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    width: 10%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+#portfolio-scribble-right {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    margin-right: -3%;
+    margin-top: 30%;
+}
+
+#clients-circle {
+    z-index: -1;
+    position: absolute;
+    left: -7%;
+    margin-top: -10%;
+}
+
+#contact-me-rectangle {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    margin-top: -40%;
+}
+
+@media (max-width: 43em) {
+    #introduction-rectangle, #about-me-rectangle, #skills-dots, #portfolio-scribble-left, #portfolio-scribble-right, #clients-circle, #contact-me-rectangle {
+        display: none;
+    }
+}
+
+@media (max-width: 82em) {
+    #introduction-rectangle, #contact-me-rectangle, #skills-dots {
+        display: none;
+    }
+}

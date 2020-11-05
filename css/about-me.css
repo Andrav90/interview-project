@@ -1,0 +1,46 @@
+#about-me-inner-container {
+    margin-left: 5%;
+}
+
+#about-me-img {
+    width: 35%;
+    height: 35%;
+    border-radius: 5%;
+    box-shadow:grey 3px 3px 5px;
+    align-self: center;
+}
+
+.about-me-tabs {
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+#about-me-tabs-titles {
+    font-size: 20px;
+}
+
+@media (max-width: 62em) {
+    #about-me {
+        flex-direction: column;
+    }
+
+    #about-me-inner-container {
+        margin-left: 0;
+    }
+
+    #about-me-img {
+        display: none;
+    }
+
+    .about-me-tabs:last-child{
+        margin-right: 0;
+    }
+
+    #about-me-tabs-titles {
+        justify-content: space-between;
+    }
+
+    #dl-cv-btn {
+        margin-left: 30%;
+    }
+}
