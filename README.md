@@ -1,6 +1,3 @@
-# interview-project
-
-
 DEMO
 
 https://interview-project.netlify.app/
